@@ -1,0 +1,28 @@
+/* Reset CSS for html #MA scope */
+html #MA, 
+html #MA div, html #MA span, html #MA applet, html #MA object, html #MA iframe,
+html #MA h1, html #MA h2, html #MA h3, html #MA h4, html #MA h5, html #MA h6, html #MA p, html #MA blockquote, html #MA pre,
+html #MA a, html #MA abbr, html #MA acronym, html #MA address, html #MA big, html #MA cite, html #MA code,
+html #MA del, html #MA dfn, html #MA em, html #MA img, html #MA ins, html #MA kbd, html #MA q, html #MA s, html #MA samp,
+html #MA small, html #MA strike, html #MA strong, html #MA sub, html #MA sup, html #MA tt, html #MA var,
+html #MA b, html #MA u, html #MA i, html #MA center,
+html #MA dl, html #MA dt, html #MA dd, html #MA ol, html #MA ul, html #MA li,
+html #MA fieldset, html #MA form, html #MA label, html #MA legend,
+html #MA table, html #MA caption, html #MA tbody, html #MA tfoot, html #MA thead, html #MA tr, html #MA th, html #MA td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+html #MA img {
+  max-width: 100%; /* 確保圖片不會超過容器 */
+  height: auto; /* 維持圖片比例 */
+  display: block; /* 避免圖片底部多出空白 */
+  border: none; /* 避免圖片有預設邊框 */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* 確保 box-sizing 統一 */
+}
